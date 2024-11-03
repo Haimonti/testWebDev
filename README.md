@@ -1,2 +1,2 @@
 # testWebDev
-This repository will be used to test a Flask Application with Github Actions and SQLAlchemy backend.
+This repository will test a Flask and SQLAlchemy application with GitHub Actions.
