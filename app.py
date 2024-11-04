@@ -1,11 +1,11 @@
 from flask import Flask
 
 app = Flask(__name__)
-app.config['TESTING']=True
+app.config['TESTING'] = True 
 
 @app.route("/")
 def hello_world():
-  return "<p>Hello World!</p>"
+    return "<p>Hello, !</p>"
 
-if _name_ == "_main_":
-  app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
